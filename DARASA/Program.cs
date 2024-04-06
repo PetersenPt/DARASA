@@ -1,13 +1,14 @@
+using DARASA.DB;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<B2G>(opt => opt.UseInMemoryDatabase("TodoList"));
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<Darasadb>(optionsBuilder => optionsBuilder.UseSqlServer());
+
 
 var app = builder.Build();
 
@@ -20,12 +21,19 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
 
-app.MapGet("/", () => "hello");
+app.MapGet("/badges", async (Darasadb db) => await db.Badges.ToListAsync()).WithOpenApi();
+app.MapGet("/casa", async (Darasadb db) => await db.CASAs.ToListAsync()).WithOpenApi();
+app.MapGet("/casaAdverts", async (Darasadb db) => await db.CASAAdverts.ToListAsync()).WithOpenApi();
+app.MapGet("/enterprises", async (Darasadb db) => await db.Enterprises.ToListAsync()).WithOpenApi();
+app.MapGet("/enterpriseAdverts", async (Darasadb db) => await db.EnterpriseAdverts.ToListAsync()).WithOpenApi();
+app.MapGet("/games", async (Darasadb db) => await db.Games.ToListAsync()).WithOpenApi();
+app.MapGet("/gameCompanies", async (Darasadb db) => await db.GameCompanies.ToListAsync()).WithOpenApi();
+app.MapGet("/gameEnterpriseAdverts", async (Darasadb db) => await db.GameEnterpriseAdverts.ToListAsync()).WithOpenApi();
+app.MapGet("/gameEnterpriseAdvertAppearances", 
+    async (Darasadb db) => await db.GameEnterpriseAdvertAppearances.ToListAsync()).WithOpenApi();
+app.MapGet("/users", async (Darasadb db) => await db.Users.ToListAsync()).WithOpenApi();
+
 // app.MapGet("/weatherforecast", () =>
 //     {
 //         var forecast = Enumerable.Range(1, 5).Select(index =>

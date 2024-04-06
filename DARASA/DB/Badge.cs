@@ -8,6 +8,8 @@ public class Badge
     
     public int Year { get; set; }
     
+    public long CASAId { get; set; }
+    
     public CASA Casa { get; set; }
         
 }
