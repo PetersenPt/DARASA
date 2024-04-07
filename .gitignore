@@ -398,3 +398,4 @@ FodyWeavers.xsd
 *.sln.iml
 
 .DS_Store
+SDK/iOS/Example/iOSSample/iOSSample.xcodeproj/project.xcworkspace/xcuserdata/ezequiel.santos.xcuserdatad/UserInterfaceState.xcuserstate
