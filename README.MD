@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARASA - Digital Advertising Applied to Social Activism</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <img src="Images/darasa.png" alt="DARASA" class="navbar-brand" height="200px">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="py-5">
+        <div class="container">
+            <section id="sobre">
+                <h2 class="mb-4">O que é o Selo DARASA?</h2>
+                <p>O Selo DARASA representa o compromisso com o ativismo social digital no setor de videojogos, promovendo ações de doações, emprego inclusivo e voluntariado empresarial para impactar positivamente as causas sociais através dos jogos.</p>
+                <!-- Placeholder para imagem do selo DARASA -->
+                <img src="Images/selo_darasa.png" alt="Selo DARASA" height="200px">
+            </section>
+    
+            <section id="projetos" class="mt-5">
+                <h2 class="mb-4">Projetos</h2>
+                <p>Conheça os projetos que são parte integrante da nossa missão de contribuir para um mundo melhor através dos videojogos.</p>
+                <img src="Images/ig-logo.png" alt="Infinity Games" height="200px">
+                <img src="Images/miniclip.png" alt="Miniclip" height="100px">
+            </section>
+    
+            <section id="parceiros" class="mt-5">
+                <h2 class="mb-4">Com o Apoio de:</h2>
+                <div class="parceiros-logos">
+                    <img src="Images/casa.png" alt="CASA" height="100px">
+                    <img src="Images/IADE.png" alt="IADE" height="100px">
+                    <img src="Images/apvp.png" alt="APVP" height="100px">
+                    <img src="Images/aepdv.png" alt="CASA" height="100px">
+                    <img src="Images/lisboa.png" alt="LISBOA" height="100px">
+                    <img src="Images/EU_FSE.png" alt="EU_FSE" height="100px">
+                    <img src="Images/Republica-Portuguesa-1.png" alt="PORTUGAL" height="50px">
+                    <img src="Images/PT2020.png" alt="PT2020"  height="100px">
+                </div>
+            </section>
+    
+            <section id="contato" class="mt-5">
+                <h2 class="mb-4">Contato</h2>
+                <p>Entre em contato conosco para mais informações ou para se envolver.</p>
+                <p>As imagens e entidades mencionadas nesta página são apenas exemplos utilizados com propositos educacionais durante o tech4good IADE 2024.
+                    Para inquéritos ou remoção de conteúdo, por favor contacte-nos através do github: https://github.com/PetersenPt/DARASA
+                </p>
+            </section>
+        </div>
+    </main>
+    
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            Termos e Condições | Política de Privacidade | FAQs
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
