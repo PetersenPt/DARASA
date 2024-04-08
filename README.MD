@@ -2,6 +2,14 @@
 
 ![](/Images/t4good.png)
 
+## Sobre
+
+🥈 Segundo Lugar na categoria cidadania.
+
+<img src="/Images/tech4good_team.png" height="300px">
+
+[Apresentação](https://petersenpt.github.io/DARASA/slides/)
+
 ## O que é o Selo DARASA?
 O Selo DARASA - **Digital Advertising Applied to Social Activism** simboliza o compromisso com ativismo social no universo dos videojogos. Este selo é concedido a projetos que demonstram uma contribuição significativa para a sociedade através de ações como doações, emprego inclusivo e voluntariado empresarial. Através do selo, reconhecemos e incentivamos iniciativas que impactam positivamente as causas sociais dentro do espaço de videojogos.
 
@@ -20,4 +28,5 @@ Estamos sempre abertos a novas parcerias, ideias e sugestões. Se você deseja m
 **GitHub**: [PetersenPt/DARASA](https://github.com/PetersenPt/DARASA)
 
 ## Nota Legal
-As imagens e entidades mencionadas nesta página são usadas exclusivamente para fins educacionais como parte do evento tech4good IADE 2024. Se houver qualquer questão ou necessidade de remoção de conteúdo, por favor, entre em contato através do nosso repositório no GitHub.
+
+As imagens e entidades mencionadas nesta página são usadas exclusivamente para fins educacionais e ilustrativos, como exemplos durante o tech4good IADE 2024. Todos os direitos são reservados aos respectivos. Se houver qualquer questão ou necessidade de remoção de conteúdo, por favor, entre em contato através do nosso repositório no GitHub.
